@@ -1,0 +1,47 @@
+/* // STATUS TABLE */
+.status_table {
+    padding: 10px 50px !important;
+}
+
+th span,
+td span {
+    font-size: 14px;
+    color: #657694;
+    vertical-align: middle;
+}
+
+.status_table table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    border: none;
+}
+
+.status_table table th {
+    border: none;
+}
+
+.status_table tbody tr {
+    box-shadow: 0px 0px 20px rgba(101, 118, 148, 0.2);
+    margin-bottom: 4px;
+    height: 50px;
+    vertical-align: middle;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transition: 1s;
+}
+
+.status_table tbody tr:hover {
+    transform: scale(1.02);
+}
+
+.status_table tbody tr {
+    padding: .5rem 1rem !important;
+}
+
+a.clickable {
+    text-decoration: none;
+    color: #657694;
+}
+a.clickable:hover {
+    text-decoration: underline;
+}
